@@ -1,0 +1,16 @@
+.container-app {
+  /* position: relative; */
+  background-color: hsl(0deg 1% 72% / 10%);
+}
+
+.main-container {
+}
+.container-footer {
+  width: 100%;
+}
+
+.coniner-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

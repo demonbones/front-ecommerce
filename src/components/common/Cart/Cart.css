@@ -1,0 +1,52 @@
+.Wrapper-cart {
+  position: fixed;
+  inset: 0;
+  top: 60px;
+  z-index: 1;
+
+  display: flex;
+  justify-content: end;
+
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateX(0);
+  transition: transform 0.3s ease-in;
+}
+
+.Wrapper-cart--hidden {
+  transform: translateX(100%);
+}
+
+.cart {
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fff;
+}
+
+.cart__title {
+  margin: 0;
+}
+
+.cart__container-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.cart__list {
+  padding: 0;
+  margin: 0;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-grow: 1;
+
+  list-style: none;
+  overflow-y: auto;
+}

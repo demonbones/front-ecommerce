@@ -1,0 +1,44 @@
+.container-login {
+  background: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 25px;
+  width: 100%;
+  color: #515151;
+  width: 100%;
+}
+
+.ul-test-data {
+  list-style: none;
+}
+.Welcome-login {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #515151;
+}
+
+.test-data {
+  background: #d8f5fd;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.test-data h3 {
+  text-align: center;
+  color: #515151;
+}
+
+.filed {
+  margin-bottom: 6px;
+  font-size: 1.6rem;
+}
+
+.filed i {
+  margin-right: 13px;
+  font-size: 1.8rem;
+}
